@@ -7,6 +7,25 @@
     <title>Prática 01 de HTML</title>
 </head>
 <header>
+    <style>
+        table{
+            font-family: 
+            arial, sans-serif;
+            border-collapse: collapse; 
+            width:100%;
+        }
+
+        td, th{
+            border: 1px solid #dddddd; 
+            text-align: left; 
+            padding: 8px;
+        }
+
+        tr:nth-child(even){
+            background-color: #dddddd;
+        }
+
+    </style>
 
 </header>
 <body>
@@ -23,6 +42,9 @@
         </p>
         <article> vestibulum leo tortor at sem. Vivamus sed velit ac nisl auctor euismod.
         </article>
+    </section>
+    <section>
+        <video src="https://www.youtube.com/watch?v=pDDdA9qEFwY"></video>
     </section>
     <img src="https://codedesigns.co/wp-content/uploads/2021/01/Lorem-Ipsum-alternatives.png" alt="Lorem Ipsum">
 <hr>
@@ -61,6 +83,32 @@
     <dt>Item 3</dt>
     <dd>O revolucionário</dd>
 </dl>
+
+<table>
+    <thead>
+        <tr>
+            <th colspan="3">
+                Tabela de conteúdos ABC
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Item A</td><td>Item B</td><td>Item C</td>
+        </tr>
+        <tr>
+            <td>A: 32</td><td>B: 43</td><td>C: 57</td>
+        </tr>
+        <tr>
+            <td>A: 33</td><td>B: 44</td><td>C: 58</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total A: 65</td><td>Total B: 87</td><td>Total C: 115</td>
+        </tr>
+    </tfoot>
+</table>
     
 </body>
 <footer>
