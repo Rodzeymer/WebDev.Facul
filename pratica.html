@@ -109,6 +109,48 @@
         </tr>
     </tfoot>
 </table>
+
+<form action="/form-alvo" method="post">
+    <fieldset>
+        <legend>Dados Gerais</legend>
+        <label for="nome">Nome: </label>
+        <input type="text" minlength="3" name="" id="nome">
+        
+        <label for="data_nascimento">Data de nascimento: </label>
+        <input type="text" name="" id="data_nascimento">
+
+        <label for="cpf">CPF: </label>
+        <input type="cpf" minlength="11" id="cpf">
+    </fieldset>
+    <fieldset>
+        <legend>Endereço</legend>
+        <label for="tipo_endereco">Tipo:</label>
+        <select name="" id="tipo_endereco">
+            <option value="">Selecione</option>
+            <option value="rua">Rua</option>
+            <option value="estrada">Estrada</option>
+            <option value="rodovia">Rodovia</option>
+        </select>
+
+        <label for="logradouro_endereco">Logradouro:</label>
+        <input type="text" name="" id="logradouro_endereco">
+
+        <label for="numero_endereco">Numero: </label>
+        <input type="text" name="" id="numero_endereco">
+
+        <label for="complemento_endereco">Complemento: </label>
+        <input type="text" name="" id="complemento_endereco">
+    </fieldset>
+    <fieldset>
+        <legend>Fale Conosco</legend>
+        <label for="msg">Mensagem: </label>
+        <textarea name="" id="msg" cols="30" rows="10"></textarea>
+    </fieldset>
+    <fieldset>
+        <button type="submit">Enviar sua mensagem</button>
+        <button type="reset">Limpar o formulário</button>
+    </fieldset>
+</form>
     
 </body>
 <footer>
