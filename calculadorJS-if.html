@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=iso-8859-1″>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var continuar = 's'
+    while (continuar =='s'){
+        var fator1 = prompt('Digite o primeiro fator!')
+        var fator2 = prompt('Digite o segundo fator!')
+    var operacao = prompt ("Digite +, -, *, /, para escolher a operação desejada");
+    if (operacao =='+'){
+        alert('adição');
+        var soma = parseInt(fator1)+parseInt(fator2)
+        alert("O cálculo "+fator1+" "+operacao+" "+fator2+" é igual a: "+soma)
+    } else if (operacao =='-'){
+        alert('subtração');
+        var subt = parseInt(fator1)-parseInt(fator2)
+        alert("O cálculo "+fator1+" "+operacao+" "+fator2+" é igual a: "+subt)
+    } else if (operacao =='*'){
+        alert('multiplicação');
+        var mult = parseInt(fator1)*parseInt(fator2)
+        alert("O cálculo "+fator1+" "+operacao+" "+fator2+" é igual a: "+mult)
+    } else if (operacao =='/'){
+        alert('divisão');
+        var divi = parseInt(fator1)/parseInt(fator2)
+        alert("O cálculo "+fator1+" "+operacao+" "+fator2+" é igual a: "+divi)
+    } else {
+        alert("Operação não definida")
+    }
+    continuar = prompt('Quer continuar? Aperte s para sim!')
+}
+
+alert("Obrigado por usar a calculadora!")
+</script>
+</html>
