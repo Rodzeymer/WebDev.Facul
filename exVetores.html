@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="iso-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var fatores=[]
+
+    for(c=0;c<2;c++){
+        var numero = prompt('Digite um número a ser calculado')
+        var novoNumero = parseInt(numero)
+        if((Math.sign(novoNumero)==1) && (Number.isInteger(novoNumero))){
+            fatores.push(novoNumero)
+            } else {
+                alert('Valor inválido, é necessário inserir um número inteiro e posítivo')
+            }
+            
+        }
+    var divisao = fatores[0]/fatores[1]
+
+    alert('Os dois números digitados foram, '+fatores[0]+' e '+fatores[1]+' e a divisão entre eles é: '+divisao+'.')
+</script>
+</html>
